@@ -1,0 +1,26 @@
+#sideEffects{
+    background-color: var(--hover);
+    padding: 2rem 0;
+    color: var(--text);
+}
+
+.sideEffects_image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.side_main_heading{
+    padding: 1rem 0 !important;
+}
+
+
+
+.side_point_heading{
+    padding:0 !important;
+}
+
+.sideEffects_point{
+    display: flex;
+    gap: 1rem;
+}

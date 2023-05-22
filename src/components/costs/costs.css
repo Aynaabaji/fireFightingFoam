@@ -1,0 +1,18 @@
+#costs{
+    background-color: var(--text);
+    padding: 3rem 0;
+}
+
+#costs p{
+    color: var(--background);
+    text-align: justify;
+}
+
+#costs h3{
+    color: var(--hover);
+}
+
+.cost_text{
+    display: flex;
+    align-items: center;
+}

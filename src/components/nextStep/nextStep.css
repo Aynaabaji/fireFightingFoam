@@ -1,0 +1,9 @@
+#next{
+    background: var(--hover);
+    padding: 3rem 0;
+}
+
+.next_heading, .nextStep_paragraph{
+    color: var(--text);
+    text-align: justify;
+}

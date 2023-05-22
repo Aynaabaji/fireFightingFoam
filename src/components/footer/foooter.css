@@ -1,0 +1,14 @@
+footer{
+    background-color: var(--white);
+    padding: 4rem 0;
+}
+
+.terms a{
+    text-decoration: none;
+    color: var(--alter);
+}
+
+.last{
+    margin-top: 2rem !important;
+    text-align: center;
+}

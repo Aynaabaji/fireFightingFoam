@@ -1,0 +1,45 @@
+#compensation{
+    padding-bottom: 6rem;
+}
+
+.compensation_text{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3em;
+}
+
+.common_compensation_card{
+    padding: 2em;
+    text-align: center;
+    border-radius: 1.5rem;
+    -webkit-border-radius: 1.5rem;
+    -moz-border-radius: 1.5rem;
+    -ms-border-radius: 1.5rem;
+    -o-border-radius: 1.5rem;
+    border: 0.1rem solid var(--text);
+    box-shadow: 12px 12px 15px var(--text);
+    transition: 0.6s all ease;
+    -webkit-transition: 0.6s all ease;
+    -moz-transition: 0.6s all ease;
+    -ms-transition: 0.6s all ease;
+    -o-transition: 0.6s all ease;
+}
+
+.common_compensation_card:hover{
+    box-shadow: none;
+}
+
+.compensation_crd1{
+    background: var(--primary);
+    color: var(--secondary);
+}
+
+.compensation_crd2{
+    background: var(--white);
+    color: var(--text);
+}
+
+.compensation_crd3{
+    background: var(--hover);
+    color: var(--text);
+}

@@ -1,0 +1,27 @@
+.banner{
+    background: url('../../assets/banner.jpg') no-repeat center;
+    background-size: cover;
+    padding: 10rem 0;
+    position: relative;
+    z-index: -2;
+}
+
+.banner::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--bannerOverlay);
+    width: 100%;
+    height: 100%;
+    opacity: 85%;
+    z-index: -1;
+}
+
+.banner_content{
+    color: var(--white);
+    z-index: 1;
+    text-align: center;
+}

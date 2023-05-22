@@ -1,0 +1,9 @@
+header{
+    background-color: var(--primary);
+    text-align: center;
+}
+
+.logo img{
+    height: 4rem;
+    margin: 1em 0;
+}
