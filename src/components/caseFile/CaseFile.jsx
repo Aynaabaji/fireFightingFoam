@@ -1,5 +1,6 @@
 import React from 'react'
 import './caseFile.css'
+import './responsiveCaseFile.css'
 
 const CaseFile = () => {
   return (

@@ -1,0 +1,21 @@
+@media screen and (min-width:768px) and (max-width:991px){
+    footer{
+        padding: 2rem 0;
+    }
+
+    .last{
+        margin-top: 1rem !important;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:767px){
+    footer{
+        padding: 2rem 0;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:575px){
+    footer{
+        padding: 2rem;
+    }
+}

@@ -1,6 +1,7 @@
 import React from 'react'
 import './nextStep.css'
 import NextImage from '../../assets/rot.jpeg'
+import './responsiveNext.css'
 
 const NextStep = () => {
   return (
@@ -9,7 +10,9 @@ const NextStep = () => {
         <div className="next_content">
             <div className="grid_content">
                 <div className="next_image">
-                    <img src={NextImage} alt="next_step" className="image_common_settings" />
+                    <div className="next_img">
+                      <img src={NextImage} alt="next_step" className="image_common_settings" />
+                    </div>
                 </div>
                 <div className="next_text">
                     <div className="common_heading next_heading">

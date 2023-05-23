@@ -1,0 +1,34 @@
+@media screen and (min-width:768px) and (max-width:991px){
+    .banner{
+        padding: 5rem 0;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:767px){
+    .banner{
+        padding: 2rem 0;
+    }
+
+    .banner_if{
+        margin-top: -2rem;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:575px){
+    .banner{
+        padding: 2rem 0;
+    }
+
+    .banner>.container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner_content{
+        width: 65%;
+    }
+
+    .banner_if{
+        margin-top: -1rem;
+    }
+}

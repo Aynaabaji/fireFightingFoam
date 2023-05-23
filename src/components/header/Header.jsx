@@ -1,6 +1,7 @@
 import React from 'react'
 import './header.css'
 import Logo from '../../assets/nib_logo.png'
+import './headerResponsive.css'
 
 const Header = () => {
   return (

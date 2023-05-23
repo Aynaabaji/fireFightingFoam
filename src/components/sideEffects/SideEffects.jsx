@@ -2,6 +2,7 @@ import React from 'react'
 import './sideEffects.css'
 import SideEffect from '../../assets/sideEffects.jpeg'
 import {FaHandPointRight} from 'react-icons/fa'
+import './responsiveSideEffects.css'
 
 const SideEffects = () => {
   return (

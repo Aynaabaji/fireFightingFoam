@@ -1,5 +1,6 @@
 import React from 'react'
 import './banner.css'
+import './responsiveBanner.css'
 
 const Banner = () => {
   return (
@@ -10,7 +11,7 @@ const Banner = () => {
                 <h2 className='colorHover'>Lifesaving or Lethal?</h2>
                 <p>Just because civilians &amp; service members use foam to save lives and property does not mean the substance itself is safe.</p>
                 <br />
-                <p>If that ‘acceptable risk’ causes you harm, you may be able to do something about it.</p>
+                <p className='banner_if'>If that ‘acceptable risk’ causes you harm, you may be able to do something about it.</p>
             </div>
         </div>
       

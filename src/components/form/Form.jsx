@@ -1,6 +1,7 @@
 import React from 'react'
 import './form.css'
 import About from '../../assets/about.jpeg'
+import './responsiveForm.css'
 
 const Form = () => {
 
@@ -78,7 +79,9 @@ const Form = () => {
 
             <div className="about">
                 <div className="about_image">
-                    <img className='image_common_settings' src={About} alt="about" />
+                    <div className="about_img">
+                        <img className='image_common_settings' src={About} alt="about" />
+                    </div>
                 </div>
                 <div className="about_content">
                     <div className="common_heading">
@@ -103,7 +106,9 @@ Firefighting foam is applied using specialized equipment like foam nozzles, moni
                 <form action="#" method='post'>
                     <div className="form_heading">
                         <hr />
-                        <h5>YOU MAY QUALIFY FOR SIGNIFICANT COMPENSATION</h5>
+                        <center>
+                            <h5>YOU MAY QUALIFY FOR SIGNIFICANT COMPENSATION</h5>
+                        </center>
                         <hr />
                     </div>
 

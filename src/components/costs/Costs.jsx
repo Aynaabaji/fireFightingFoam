@@ -1,6 +1,7 @@
 import React from 'react'
 import './costs.css'
 import CostImage from '../../assets/convoy.jpg'
+import './responsiveCosts.css'
 
 const Costs = () => {
   return (
